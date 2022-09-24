@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño de barra de navegación */
+
+.logo_company{
+    width: 15rem;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+.menu_navegacion{
+    display: flex;
+    justify-content: center;
+}
+
+.items{
+    padding: 0rem 1.5rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.items:hover{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000;
+    line-height: 8px;
+}
+
+/* Diseño de la seccion de servicios */
+
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 100vh; */
+    padding-top: 5rem;
+    height: 100vh;
+
+}
+
+
+.service_item .active{
+    display: none
+}
+
+.services h2{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.services p{
+    width: 30rem;
+    color: rgb(63, 63, 63);
+}
+
+.services_elements{
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.active .check_logo{
+    width: 1rem;
+}
+
+
+.tag{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.tag h3{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.tag h3:hover{
+    color: rgb(221, 169, 0);
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.active{
+    margin-bottom: 2rem;
+    display: none;
+    width: 100%;
+}
+.service_item img {
+    width: 2rem;
+    margin-right: 1.5rem;
+}
+
+/* Diseño de la segunda seccion de los servicios */
+
+.active_second{
+    display: none;
+}
+
+.active_second{
+    margin-bottom: 2rem;
+}
+
+.active_second .services_elements img{
+    width: 1rem;
+    height: fit-content;
+}
+
+/* Diseño de la seccion de el footer */
+
+.footer__section{
+    height: 8rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer__section p{
+    margin-bottom: 2rem;
+}
+
+.footer__social__media{
+    display: flex;
+}
+
+.footer_icon{
+    width: 1.5rem;
+    margin: 0rem 1rem;
+    cursor: pointer;
+}

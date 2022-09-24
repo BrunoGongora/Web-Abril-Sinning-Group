@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="services.css">
+    <title>Abril Sinning Group</title>
+</head>
+
+<body>
+    <!-- Maqueta de la seccion de la barra de navegacion.  -->
+    <div class="nav">
+        <div class="logo__menu__navegacion">
+            <img class="logo_company" src="/src/logos/logo letras en negro vector.png" alt="logo_empresa">
+        </div>
+        <div class="menu_navegacion">
+            <a class="items" href="index.html">Inicio</a>
+            <a class="items" href="about.html">Quienes Somos</a>
+            <a class="items" href="equipo.html">Equipo</a>
+            <a class="items" href="services.html">Servicios</a>
+            <a class="items" href="">Blog</a>
+            <a class="items" href="">Contacto</a>
+        </div>
+    </div>
+
+    <!-- Diseño de la seccion de los servicios -->
+
+    <div class="sectio_services">
+        <div class="services">
+            <div class="services_information">
+                <h2>Servicios</h2>
+                <p>La firma Abril Sinnig Group – Asesoría Territorial, ofrece el siguiente portafolio de servicios:</p>
+            </div>
+            <div class="list_services">
+                <div class="service_item">
+                    <div class="tag">
+                        <img class="icono_service" src="./src/iconos/iconos_servicios/law.png" alt="">
+                        <button class="btn" type="button" onclick="show()">ASESORÍA LEGA</button>
+                    </div>
+                </div>
+
+                <!-- Elementos de los servicios que se despliegan al dar click en el titulo -->
+                <div id="active" class="services_list_elements active">
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho Administrativo</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho Disciplinario</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho de responsabilidad fiscal </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho Administrativo Laboral</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho Electoral </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho Contractual</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho Laboral</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho Civil</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Derecho Comercial </p>
+                    </div>
+
+                    <button type="button" onclick="ocultar()">Ocultar</button>
+                </div>
+
+                <!-- Aqui comienza la segunda seccion de los servicios -->
+
+                <div class="service_item">
+                    <div class="tag">
+                        <img class="icono_service" src="./src/iconos/iconos_servicios/legal-document.png" alt="">
+                        <button class="btn" type="button" onclick="show_second()">PLANEACIÓN CON PROSPECTIVA ADMINISTRATIVA</button>
+                    </div>
+
+                    <!-- Servicios del titulos -->
+                    <div id="active_second" class="active_second">
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Diseño y actualización de EOT, PBOT y POT</p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Acompañamiento en la formulación de planes de desarrollo territorial</p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Acompañamiento en la formulación de políticas publicas </p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Acompañamiento en la formulación del plan municipal de gestión del riesgo de desastres (PMGRD)</p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Asesoría para la gerencia estratégica y organización de los servicios de salud</p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Acompañamiento en la formulación del plan territorial de salud – PTS, plan de intervención colectiva - PIC </p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Auditoria administrativa y financiera al régimen subsidiado y sistema general de seguridad social </p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Acompañamiento en la formulación de los planes de gestión ambiental municipal - PGAM</p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Acompañamiento en la formulación del plan de gestión integral residuos sólidos – PGIRS</p>
+                        </div>
+                        <div class="services_elements">
+                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                            <p>Acompañamiento en la formulación de planes, proyectos y/o estudios de obligación legal y/o reglamentarios.</p>
+                        </div>
+
+                        <button type="button" onclick="ocultar_second()">Ocultar</button>
+                    </div>
+                    
+
+
+                <!-- Tercera seccion de los servicios -->
+                    <div class="service_item">
+                        <div class="tag">
+                            <img class="icono_service" src="./src/iconos/iconos_servicios/budget.png" alt="">
+                            <button class="btn">SERVICIOS PÚBLICOS DOMICILIARIOS</button>
+                        </div>
+                    </div>
+                    <div class="service_item">
+                        <div class="tag">
+                            <img class="icono_service" src="./src/iconos/iconos_servicios/organization.png" alt="">
+                            <button class="btn">CREACIÓN, MODERNIZACIÓN Y DISEÑO ORGANIZACIONAL</button>
+                        </div>
+                    </div>
+                    <div class="service_item">
+                        <div class="tag">
+                            <img class="icono_service" src="./src/iconos/iconos_servicios/administrator.png" alt="">
+                            <button class="btn">ASESORIA FINANCIERA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Maquetado de el footer -->
+
+        <footer class="footer__section">
+            <p>No olvides seguirnos en nuestras redes sociales</p>
+            <div class="footer__social__media">
+                <img class="footer_icon" src="./src/iconos/iconos_redes_sociales/twitter (1).png" alt="logo_twitter">
+                <img class="footer_icon" src="./src/iconos/iconos_redes_sociales/facebook (2).png" alt="logo_facebook">
+                <img class="footer_icon" src="./src/iconos/iconos_redes_sociales/instagram (1).png"
+                    alt="logo_instagram">
+                <img class="footer_icon" src="./src/iconos/iconos_redes_sociales/whatsapp.png" alt="logo_whatsapp">
+            </div>
+        </footer>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
