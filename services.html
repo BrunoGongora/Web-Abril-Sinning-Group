@@ -21,7 +21,7 @@
             <a class="items" href="equipo.html">Equipo</a>
             <a class="items" href="services.html">Servicios</a>
             <a class="items" href="">Blog</a>
-            <a class="items" href="">Contacto</a>
+            <a class="items" href="contacto.html">Contacto</a>
         </div>
     </div>
 
@@ -41,8 +41,50 @@
                     </div>
                 </div>
 
-                <!-- Elementos de los servicios que se despliegan al dar click en el titulo -->
-                <div id="active" class="services_list_elements active">
+
+
+                <!-- Aqui comienza la segunda seccion de los servicios -->
+
+                <div class="service_item">
+                    <div class="tag">
+                        <img class="icono_service" src="./src/iconos/iconos_servicios/legal-document.png" alt="">
+                        <button class="btn" type="button" onclick="show_second()">PLANEACIÓN CON PROSPECTIVA
+                            ADMINISTRATIVA</button>
+                    </div>
+
+
+
+
+
+                    <!-- Tercera seccion de los servicios -->
+                    <div class="service_item">
+                        <div class="tag">
+                            <img class="icono_service" src="./src/iconos/iconos_servicios/budget.png" alt="">
+                            <button type="button" onclick="show_tercero()" class="btn">SERVICIOS PÚBLICOS DOMICILIARIOS</button>
+                        </div>
+                    </div>
+                    <div class="service_item">
+                        <div class="tag">
+                            <img class="icono_service" src="./src/iconos/iconos_servicios/organization.png" alt="">
+                            <button type="button" onclick="show_cuarto()" class="btn">CREACIÓN, MODERNIZACIÓN Y DISEÑO ORGANIZACIONAL</button>
+                        </div>
+                    </div>
+                    <div class="service_item">
+                        <div class="tag">
+                            <img class="icono_service" src="./src/iconos/iconos_servicios/administrator.png" alt="">
+                            <button type="button" onclick="show_quinto()" class="btn">ASESORIA FINANCIERA</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elementos de los servicios que se despliegan al dar click en el titulo -->
+        <!-- Primera seccion del servicio de Asesoria Legal -->
+
+        <div id="active" class="services_list_elements active">
+            <div class="container">
+                <div class="elements_container">
                     <div class="services_elements">
                         <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
                         <p>Derecho Administrativo</p>
@@ -79,88 +121,211 @@
                         <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
                         <p>Derecho Comercial </p>
                     </div>
-
-                    <button type="button" onclick="ocultar()">Ocultar</button>
                 </div>
-
-                <!-- Aqui comienza la segunda seccion de los servicios -->
-
-                <div class="service_item">
-                    <div class="tag">
-                        <img class="icono_service" src="./src/iconos/iconos_servicios/legal-document.png" alt="">
-                        <button class="btn" type="button" onclick="show_second()">PLANEACIÓN CON PROSPECTIVA ADMINISTRATIVA</button>
-                    </div>
-
-                    <!-- Servicios del titulos -->
-                    <div id="active_second" class="active_second">
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Diseño y actualización de EOT, PBOT y POT</p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Acompañamiento en la formulación de planes de desarrollo territorial</p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Acompañamiento en la formulación de políticas publicas </p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Acompañamiento en la formulación del plan municipal de gestión del riesgo de desastres (PMGRD)</p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Asesoría para la gerencia estratégica y organización de los servicios de salud</p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Acompañamiento en la formulación del plan territorial de salud – PTS, plan de intervención colectiva - PIC </p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Auditoria administrativa y financiera al régimen subsidiado y sistema general de seguridad social </p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Acompañamiento en la formulación de los planes de gestión ambiental municipal - PGAM</p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Acompañamiento en la formulación del plan de gestión integral residuos sólidos – PGIRS</p>
-                        </div>
-                        <div class="services_elements">
-                            <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
-                            <p>Acompañamiento en la formulación de planes, proyectos y/o estudios de obligación legal y/o reglamentarios.</p>
-                        </div>
-
-                        <button type="button" onclick="ocultar_second()">Ocultar</button>
-                    </div>
-                    
-
-
-                <!-- Tercera seccion de los servicios -->
-                    <div class="service_item">
-                        <div class="tag">
-                            <img class="icono_service" src="./src/iconos/iconos_servicios/budget.png" alt="">
-                            <button class="btn">SERVICIOS PÚBLICOS DOMICILIARIOS</button>
-                        </div>
-                    </div>
-                    <div class="service_item">
-                        <div class="tag">
-                            <img class="icono_service" src="./src/iconos/iconos_servicios/organization.png" alt="">
-                            <button class="btn">CREACIÓN, MODERNIZACIÓN Y DISEÑO ORGANIZACIONAL</button>
-                        </div>
-                    </div>
-                    <div class="service_item">
-                        <div class="tag">
-                            <img class="icono_service" src="./src/iconos/iconos_servicios/administrator.png" alt="">
-                            <button class="btn">ASESORIA FINANCIERA</button>
-                        </div>
-                    </div>
+                <div class="title_container">
+                    <h2>Asesoria Legal</h2>
                 </div>
             </div>
+            <div class="botones_container">
+                <button class="btn_container" type="button" onclick="ocultar()">Ocultar</button>
+                <button class="btn_container">Contactar</button>
+            </div>
         </div>
+
+        <!-- Segunda seccion -->
+        <!-- Servicios del titulos -->
+        <div id="active_second" class="container_second_service">
+            <div class="second_container">
+                <div class="container_list_second_services">
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Diseño y actualización de EOT, PBOT y POT</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Acompañamiento en la formulación de planes de desarrollo territorial</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Acompañamiento en la formulación de políticas publicas </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Acompañamiento en la formulación del plan municipal de gestión del riesgo de desastres
+                            (PMGRD)</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Asesoría para la gerencia estratégica y organización de los servicios de salud</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Acompañamiento en la formulación del plan territorial de salud – PTS, plan de
+                            intervención colectiva - PIC </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Auditoria administrativa y financiera al régimen subsidiado y sistema general de
+                            seguridad social </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Acompañamiento en la formulación de los planes de gestión ambiental municipal - PGAM</p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Acompañamiento en la formulación del plan de gestión integral residuos sólidos – PGIRS
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Acompañamiento en la formulación de planes, proyectos y/o estudios de obligación legal
+                            y/o reglamentarios.</p>
+                    </div>
+                </div>
+                <div class="container_second_service_title">
+                    <h2>
+                        Planeacion Con Prospectiva Administrativa
+                    </h2>
+                </div>
+            </div>
+            <div class="botones_segunda_seccion">
+                <button class="btn_segunda_seccion" type="button" onclick="ocultar_second()">Ocultar</button>
+                <button class="btn_segunda_seccion">Contactar</button>
+            </div>
+        </div>
+
+
+
+        <!-- Seccion de el tercer servicio -->
+        <div id="tercer_active" class="tercer_active">
+            <div class="tercer_container">
+                <div class="elementos_container_tercero">
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Asesoría en las competencias de las Entidades Territoriales y de sus Autoridades en la prestación de los
+                            servicios públicos domiciliarios
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Asesoría en la contratación y gestión en los servicios públicos domiciliarios
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Asesoría en el régimen tarifario, estratificación y subsidio de los servicios públicos domiciliarios
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Asesoría para los Permisos, Licencias y Autorizaciones Ambientales para la prestación de servicios públicos domiciliarios
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Asesoría en Inspección, vigilancia y control de los Servicios Públicos Domiciliarios
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Asesoría para la presentación de informes y/o estudios de obligación legal o estratégicos. 
+                        </p>
+                    </div>
+                </div>
+                <div class="informacion_contenedor_tres">
+                    <h2>Servicios Publicos Domiciliarios</h2>
+                </div>
+            </div>
+            <div class="botones_tercera_seccion">
+                <button class="btn_tercero" type="button" onclick="ocultar_tercero()">Ocultar</button>
+                <button class="btn_tercero">Contactanos</button>
+            </div>
+        </div>
+        
+
+         <!-- Seccion de el cuarto servicio -->
+
+         <div id="active_cuatro" class="active_cuatro">
+            <div class="container_cuatro">
+                <div class="elementos_container_cuatro">
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Acompañamiento en la creación de organizaciones públicas y privadas
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Diagnóstico y diseño de estructuras para organizaciones
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Elaboración y modernización de planes, manuales, procesos y procedimiento organizacionales, encaminados a la mejora continua.
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Planeación, organización y capacitación del talento humano
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Implementación y fortalecimiento de las Tic´s 
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Establecimiento y seguimiento de indicadores de gestión
+                        </p>
+                    </div>
+                </div>
+                <div class="informacion_container_cuatro">
+                    <h2>Creación, Modernización y Diseño Organizacional</h2>
+                </div>
+            </div>
+            <div class="botones_cuarta_seccion">
+                <button class="btn_cuarta_seccion" type="button" onclick="ocultar_cuarto()">Ocultar</button>
+                <button class="btn_cuarta_seccion">Contactar</button>
+            </div>
+         </div>
+
+
+          <!-- Seccion de el quinta servicio -->
+
+          <div id="active_quinto" class="active_quinto">
+            <div class="container_quinto">
+                <div class="elementos_quinta_seccion">
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Establecimiento y seguimiento de indicadores de gestión
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Establecimiento y seguimiento de indicadores de gestión
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Establecimiento y seguimiento de indicadores de gestión
+                        </p>
+                    </div>
+                    <div class="services_elements">
+                        <img class="check_logo" src="./src/iconos/iconos_servicios/mapas-y-banderas.png" alt="">
+                        <p>Establecimiento y seguimiento de indicadores de gestión
+                        </p>
+                    </div>
+                </div>
+                <div class="informacion_quinta_seccion">
+                    <h2>Asesoria Financiera</h2>
+                </div>
+            </div>
+            <div class="botones_quinta_seccion">
+                <button class="btn_quinta_seccion" type="button" onclick="ocultar_quinto()">Ocultar</button>
+                <button class="btn_quinta_seccion">Contactar</button>
+            </div>
+          </div>
 
         <!-- Maquetado de el footer -->
 

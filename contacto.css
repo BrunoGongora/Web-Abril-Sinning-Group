@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño de barra de navegación */
+
+.logo_company{
+    width: 15rem;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+}
+.menu_navegacion{
+    display: flex;
+    justify-content: center;
+}
+
+.items{
+    padding: 0rem 1.5rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.items:hover{
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000;
+    line-height: 8px;
+}
+
+
+/* Diseño de el cuerpo de la seccion de contacto*/
+
+.contacto{
+    padding-top: 8rem;
+    height: 100vh;
+}
+
+.contacto h2{
+    text-align: center;
+    font-size: 2.5rem;
+} 
+
+.contacto .seccion_formulario{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Diseño de el formulario*/
+
+.contacto{
+    margin-bottom: 4rem;
+}
+
+.contenedor_contacto{
+    display: flex;
+    justify-content: center;
+}
+
+.seccion_formulario{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacion_seccion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.seccion_formulario p{
+    margin-bottom: 2rem;
+}
+
+.input{
+    height: 2rem;
+    width: 15rem;
+    margin: 1rem 0.5rem;
+}
+
+.input_mensaje{
+    width: 31.4rem;
+    height: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.btn_sent{
+    width: 20rem;
+    height: 2rem;
+    background-color: rgb(197, 128, 0);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+/* Diseño de la secicon de la informaciojn de contacto */
+
+.informacion_seccion .text_contacto{
+    width: 30rem;
+    margin-bottom: 4rem;
+    color: rgb(90, 90, 90);
+}
+
+.informacion_contacto{
+    display: flex;
+    margin-bottom: 3rem;
+    color: rgb(90, 90, 90);
+}
+
+.informacion_contacto img{
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.mapa{
+    width: 100%;
+}
+
+/* Diseño de la seccion de el footer */
+
+.footer__section{
+    height: 5rem;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer__section p{
+    margin-bottom: 1rem;
+}
+
+.footer__social__media{
+    display: flex;
+}
+
+.footer_icon{
+    width: 1.5rem;
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
