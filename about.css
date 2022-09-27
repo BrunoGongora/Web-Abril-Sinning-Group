@@ -8,6 +8,8 @@
 
 .logo_company{
     width: 15rem;
+    height: 5.5rem;
+
 }
 
 
@@ -21,6 +23,7 @@
     position: fixed;
     z-index: 100;
     background-color: white;
+    border-bottom: 2px solid rgba(177, 177, 177, 0.603);
 }
 .menu_navegacion{
     display: flex;
@@ -76,6 +79,7 @@
     text-align: center;
     justify-content: space-around;
     margin-bottom: 5rem;
+    padding: 0rem 5rem ;
 }
 
 .about_section img{
@@ -95,7 +99,7 @@
 
 .about_section p{
     width: 40rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgb(97, 97, 97);    
 
 }

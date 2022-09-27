@@ -8,6 +8,8 @@
 
 .logo_company{
     width: 15rem;
+    height: 5.5rem;
+
 }
 
 .nav{
@@ -19,7 +21,7 @@
     position: fixed;
     z-index: 100;
     background-color: white;
-}
+    border-bottom: 2px solid rgba(177, 177, 177, 0.603);}
 .menu_navegacion{
     display: flex;
     justify-content: center;
@@ -55,9 +57,20 @@
     display: none
 }
 
+.list_services{
+    margin-left: 8rem;
+}
+
 .services h2{
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.linea_titulo_servicios{
+    width: 5rem;
+    height: 0.5rem;
+    background-color: orange;
+    margin-bottom: 2.5rem;
 }
 
 .services p{
@@ -95,6 +108,10 @@
     cursor: pointer;
 }
 
+.btn:hover{
+    color: rgb(109, 109, 109);
+}
+
 .active{
     margin-bottom: 2rem;
     display: none;
@@ -116,6 +133,7 @@
     display: flex;
     justify-content: center;
     height: 30rem;
+    background-color: rgb(248, 248, 248);
 }
 
 .elements_container{
@@ -186,6 +204,11 @@
 
 .container_second_service{
     display: none;
+    
+}
+
+.second_container{
+    background-color: rgb(248, 248, 248);
 }
 
 .active_second{
@@ -283,6 +306,7 @@ display: flex;
 
 .tercer_container{
     display: flex;
+    background-color: rgb(248, 248, 248);
 }
 .elementos_container_tercero{
     display: flex;
@@ -341,6 +365,7 @@ display: flex;
 
 .container_cuatro{
     display: flex;
+    background-color: rgb(248, 248, 248);
 }
 
 .elementos_container_cuatro .services_elements img{
@@ -400,6 +425,7 @@ display: flex;
 .container_quinto{
     display: flex;
     height: 20rem;
+    background-color: rgb(248, 248, 248);
 }
 
 .elementos_quinta_seccion{

@@ -8,6 +8,7 @@
 
 .logo_company{
     width: 15rem;
+    height: 5.5rem;
 }
 
 .nav{
@@ -19,6 +20,7 @@
     position: fixed;
     z-index: 100;
     background-color: white;
+    border-bottom: 2px solid rgba(177, 177, 177, 0.603);
 }
 .menu_navegacion{
     display: flex;
@@ -39,18 +41,31 @@
 }
 
 /* Diseño de la seccion de equipo */
+.equipo_titulo{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./src/teamwork-gd7f28906b_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 5rem;
+}
+
 
 .team_section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10rem;
+    padding-top: 5.5rem;
     margin-bottom: 5rem;
 }
 
 .team_section h3{
     margin-bottom: 3rem;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
 }
 
 .team_section p{
