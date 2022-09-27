@@ -101,6 +101,7 @@
     width: 40rem;
     font-size: 1.1rem;
     color: rgb(97, 97, 97);    
+    text-align: justify;
 
 }
 
@@ -128,7 +129,7 @@
     width: 30rem;
     font-size: 1.1rem;
     color: rgb(221, 221, 221);  
-    text-align: center;
+    text-align: justify;
  }
 
 .mision{

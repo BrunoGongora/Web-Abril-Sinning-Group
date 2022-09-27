@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="about.css">
     <title>Abril Sinning Group</title>
 </head>
@@ -28,7 +29,7 @@
     <!-- Seccion de acerca de nosotros  -->
 
     <div class="about_section">
-        <div>
+        <div data-aos="fade-right">
             <img class="logo_about_section" src="./src/logos/LOGOTIPO SOLO VECTOR NEGRO.png"
                 alt="logotiopo_abril_sinning_group">
         </div>
@@ -49,7 +50,7 @@
     <!-- Seccion de mision y vision -->
 
     <div class="mision_vision_section">
-        <div class="mision">
+        <div class="mision" data-aos="fade-up" data-aos-duration="1000">
             <h3>Misión</h3>
             <p>Ser un aliado estratégico con nuestros servicios de asesoría, consultoría Y representación legal
                 especializada, con enfoque estratégico y multidisciplinario, que permite brindar un fortalecimiento a
@@ -58,7 +59,7 @@
                 administrativa e implementación de una planeación estratégica las organizaciones puedan responder de
                 manera positiva a las dinámicas y exigencias del mundo moderno.</p>
         </div>
-        <div class="vision">
+        <div class="vision" data-aos="fade-up" data-aos-duration="1000">
             <h3>Visión</h3>
             <p>Ser un aliado estratégico con nuestros servicios de asesoría, consultoría Y representación legal
                 especializada, con enfoque estratégico y multidisciplinario, que permite brindar un fortalecimiento a
@@ -80,6 +81,11 @@
             <img class="footer_icon" src="./src/iconos/iconos_redes_sociales/whatsapp.png" alt="logo_whatsapp">
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
